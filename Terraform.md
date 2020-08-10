@@ -18,23 +18,23 @@
    
    Terraform has many plugins and providers support for multiple clouds and applications.
    
-    * Uses providers model - allows you to define infrastructure on many sources in a consitent way.
-    * `terraform init` - Initialization of providers
-    * `terraform plan` - plan before apply changes 
-    * `terraform apply` - Apply changes after reviewing plans.
-    * `terraform destroy` - Destroy changes after done with the instances.
+   * Uses providers model - allows you to define infrastructure on many sources in a consitent way.
+   * `terraform init` - Initialization of providers
+   * `terraform plan` - plan before apply changes 
+   * `terraform apply` - Apply changes after reviewing plans.
+   * `terraform destroy` - Destroy changes after done with the instances.
       
    Other Reasons to use to Terraform is,
    
-    * Importing Existing infrastructure by slowy migrating.
-    * Provider kept up to date by community.
-    * Open source so you can debug issues.
-    * Write your own providers.
+   * Importing Existing infrastructure by slowy migrating.
+   * Provider kept up to date by community.
+   * Open source so you can debug issues.
+   * Write your own providers.
       
 ## Terraform vs AWS cloudFormation
 
    * It is Open source and genrally moves faster.
    * Terraform allows you to plan before changing your infrastructure.
    * Terraform allows you to configure multiple clouds/resources with the same skillset allowing you to manage all of your
-      infrastructure in the same way.
+     infrastructure in the same way.
       
